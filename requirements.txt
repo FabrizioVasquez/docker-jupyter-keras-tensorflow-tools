@@ -36,6 +36,7 @@ opencv-contrib-python>=3.3.0.10
 opencv-python>=3.3.0.10
 
 # Text mining
+dlib==19.21.1
 nltk>=3.2.5
 gensim>=3.1.0
 sklearn
@@ -76,21 +77,3 @@ virtualenv>=15.1.0
 
 # REST API
 Flask>=0.12.2
-
-# Notifications
-pushbullet.py>=0.11.0
-
-# Security
-PyOpenSSL
-oauth2client
-
-# Spreadsheets
-gspread
-
-# Audio
-pydub
-librosa
-eyed3
-
-# Video
-youtube-dl
